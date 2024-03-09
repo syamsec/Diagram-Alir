@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-18 11:05:54 AM"/>
+        <attribute name="created" value="YWNlcjtERVNLVE9QLTBLU1UzSEM7MjAyNC0wMi0xODsxMDo1MzozNSBBTTsyNzQw"/>
+        <attribute name="edited" value="YWNlcjtERVNLVE9QLTBLU1UzSEM7MjAyNC0wMi0xODsxMTowNTo1NCBBTTsxOzI4NDc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Sisi, Luas, LPermukaan" type="Integer" array="False" size=""/>
+            <input variable="sisi"/>
+            <assign variable="Luas" expression="sisi*sisi"/>
+            <assign variable="LPermukaan" expression="luas*6"/>
+            <output expression="LPermukaan" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

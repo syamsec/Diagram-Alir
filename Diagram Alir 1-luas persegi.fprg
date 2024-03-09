@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-18 10:53:30 AM"/>
+        <attribute name="created" value="YWNlcjtERVNLVE9QLTBLU1UzSEM7MjAyNC0wMi0xODsxMDozMToyMCBBTTsyNzMw"/>
+        <attribute name="edited" value="YWNlcjtERVNLVE9QLTBLU1UzSEM7MjAyNC0wMi0xODsxMDo1MzozMCBBTTsxOzI4NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Luas, sisi" type="Integer" array="False" size=""/>
+            <input variable="sisi"/>
+            <assign variable="Luas" expression="sisi*sisi"/>
+            <output expression="luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

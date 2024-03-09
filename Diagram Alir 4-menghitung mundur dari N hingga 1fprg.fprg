@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="acer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-02-18 11:23:50 AM"/>
+        <attribute name="created" value="YWNlcjtERVNLVE9QLTBLU1UzSEM7MjAyNC0wMi0xODsxMToxMzoyMiBBTTsyNzMz"/>
+        <attribute name="edited" value="YWNlcjtERVNLVE9QLTBLU1UzSEM7MjAyNC0wMi0xODsxMToyMzo1MCBBTTsxOzI4NDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <input variable="n"/>
+            <do expression="n&gt;0">
+                <output expression="n" newline="True"/>
+                <assign variable="n" expression="n-1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
